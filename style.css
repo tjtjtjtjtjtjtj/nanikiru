@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 画面の高さいっぱいに広がるように */
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    cursor: pointer;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    /*flex: 1; /* フレックスアイテムが残りのスペースを埋めるように */
+}
+
+section div {
+    margin-bottom: 20px;
+}
+
+section img {
+    max-width: 100%; /* 画像の最大幅を親要素に合わせる */
+    height: auto;    /* アスペクト比を保持したまま高さを自動調整 */
+}
+
+section textarea {
+    resize: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+    margin-top: auto; /* フッターが常に一番下になるように */
+}
+
+.message {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
